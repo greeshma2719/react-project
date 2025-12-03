@@ -31,7 +31,7 @@ export default function Cartpage() {
              : `/src/${item.images?.[0]}`;
 
         return (
-            <div className="flex border-b p-5">
+            <div className="flex border-b p-3">
                 <img className="cartimage" src={imageSrc} />
                 
                 <div className="relative w-full pl-16">
