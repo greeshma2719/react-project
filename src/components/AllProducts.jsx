@@ -69,9 +69,9 @@ export default function AllProducts() {
             <p className='sortby font-bold' onClick={()=>setSortby("high")}>Price(Highest First)</p>
             <hr/>
             <h4>Brands</h4>
-           <p className='ml-2 font-bold gap-3 flex items-center'> <input type='checkbox' className='brands'  onChange={()=>handleBrand("JBL")}/>JBL</p>
-           <p className='ml-2 font-bold gap-3 flex items-center'> <input type='checkbox'  onChange={()=>handleBrand("boAt")}/>boAt</p>
-           <p className='ml-2 font-bold gap-3 flex items-center'> <input type='checkbox'  onChange={()=>handleBrand("Sony")}/>Sony</p>
+           <p className='ml-1 font-bold gap-3 flex items-center'> <input type='checkbox' className='brands'  onChange={()=>handleBrand("JBL")}/>JBL</p>
+           <p className='ml-1 font-bold gap-3 flex items-center'> <input type='checkbox'  onChange={()=>handleBrand("boAt")}/>boAt</p>
+           <p className='ml-1 font-bold gap-3 flex items-center'> <input type='checkbox'  onChange={()=>handleBrand("Sony")}/>Sony</p>
             <h4>Category</h4>
            <p className='ml-1 font-bold gap-3 flex items-center'> <input type='checkbox' onChange={()=>handleCategory("Headphones")} />Headphones</p>
            <p className='ml-1 font-bold gap-3 flex items-center'> <input type='checkbox' onChange={()=>handleCategory("Earbuds")}/>Earbuds</p>
