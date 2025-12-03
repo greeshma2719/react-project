@@ -29,7 +29,7 @@ export default function ProductsDetails() {
       <div className='col-md-5 originalimage '>
          <img src={Products.images[0]} alt="" className='mainimage' />
       </div>
-        <div className='col-md-6 mt-2 text-white '>
+        <div className='col-md-6 mt-5 text-white '>
           <h4>{Products.title}</h4>
           <p>{Products.info}</p>
           <div className='border-bottom py-1 text-center gap-4'>
