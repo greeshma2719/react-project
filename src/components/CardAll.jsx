@@ -31,7 +31,7 @@ export default function CardAll({ item }) {
                     </div>
                     <h5 className="card-title text-white">{item.title}</h5>
                     <p className="card-text text-white border-bottom mb-3 mt-3 h-[50px] overflow-hidden">{item.info}</p>
-                    <p className='text-white'>  <del className='gap-2'>₹{item.originalPrice}</del>  <strong className=''>₹{item.finalPrice}</strong></p>
+                    <p className='text-white'>  <del className='gap-3'>₹{item.originalPrice}</del>  <strong className=''>₹{item.finalPrice}</strong></p>
                     <div className='flex justify-center mt-3'>
                   <button  className={`align-middle text-white rounded select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 w-full 
                           ${added 
