@@ -25,7 +25,7 @@ export default function CardAll({ item }) {
         <div className='justify-center mb-5'>
             <div className="card border w-[15rem] h-[360px]  flex flex-col ">
                 <img src={imageSrc} className="card-img-top" alt={item.title} />
-                <div className="card-body ml-1 flex-col justify-between px-3 pb-3">
+                <div className="card-body ml-2 flex-col justify-between px-3 pb-3">
                     <div className='flex'>
                     <p className='text-red-500 flex'><FaStar/><FaStar/><FaStar/><FaStar/><FaStar/></p>
                     </div>
