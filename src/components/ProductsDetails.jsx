@@ -50,7 +50,7 @@ export default function ProductsDetails() {
         </div>
         </div>
       </div>
-      <ul className='flex justify-center gap-10 text-white font-bold'>
+      <ul className='flex justify-center gap-20 text-white font-bold'>
         <li className='border bg-red-500 rounded text-white p-2'>Specifications</li>
         <li>Overview</li>
         <li>Reviews</li>
